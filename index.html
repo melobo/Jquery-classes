@@ -13,6 +13,83 @@
 
 <body>
 
+    <div id="square-wrapper" class="square-wrapper d-flex">
+        <div class="square square-red"></div>
+        <div class="square square-blue"></div>
+        <div class="square square-peru"></div>
+    </div>
+    <div class="radio-wrapper mt-3 border border-primary d-flex rounded justify-content-around p-3">
+        <div class="input-group mx-1">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input class="toggle-flex" type="radio" name="toggle-flex"
+                        aria-label="Radio button for following text input" value="space-around">
+                </div>
+            </div>
+            <label for="">Space around</label>
+        </div>
+        <div class="input-group mx-1">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input class="toggle-flex" type="radio" name="toggle-flex"
+                        aria-label="Radio button for following text input" value="space-between">
+                </div>
+            </div>
+            <label for="">Space between</label>
+        </div>
+        <div class="input-group mx-1">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input class="toggle-flex" type="radio" name="toggle-flex"
+                        aria-label="Radio button for following text input" value="center">
+                </div>
+            </div>
+            <label for="">Center</label>
+        </div>
+        <div class="input-group mx-1">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input class="toggle-flex" type="radio" name="toggle-flex"
+                        aria-label="Radio button for following text input" value="space-evenly">
+                </div>
+            </div>
+            <label for="">Evenly</label>
+        </div>
+        <div class="input-group mx-1">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input class="toggle-flex" type="radio" name="toggle-flex"
+                        aria-label="Radio button for following text input" value="flex-start">
+                </div>
+            </div>
+            <label for="">Start</label>
+        </div>
+        <div class="input-group mx-1">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input class="toggle-flex" type="radio" name="toggle-flex"
+                        aria-label="Radio button for following text input" value="flex-end">
+                </div>
+            </div>
+            <label for="">End</label>
+        </div>
+    </div>
+    <div id="flex-btn" class="btn btn-primary mt-3 w-25">Go flex!</div>
+    <br>
+    <div class="to-do-wrapper w-50 d-block mx-auto mt-3 p-3 border border-success rounded">
+        <div class="form-group">
+            <label for="">Agregar Tarea</label>
+            <input id="task-input" type="text" class="form-control">
+            <div class="btn btn-primary mt-3">Agregar tarea</div>
+        </div>
+        <div class="task-wrapper mt-3">
+            <ul class="task-list">
+                <li>Default <div class="btn btn-danger">Eliminar</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
