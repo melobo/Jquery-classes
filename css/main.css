@@ -1,0 +1,25 @@
+body{
+    background-color: #222629;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+}
+
+.sq-green{
+    background-color: #86C232;
+}
+
+.sq-beta-green{
+    background-color: #61892F;
+}
+
+.btn-secondary{
+    font-weight: bold;
+}
+
+.r-wrapper{
+    color: white;
+    font-weight: bold;
+}

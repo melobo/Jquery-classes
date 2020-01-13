@@ -13,6 +13,29 @@
 
 <body>
 
+    <div class="wrapper m-3">
+        <div class="square sq-green"></div>
+        <div class="square sq-beta-green"></div>
+        <div class="square sq-green"></div>
+        <div class="square sq-beta-green"></div>
+        <div class="square sq-green"></div>
+    </div>
+
+    <div class="r-wrapper m-3 d-none">
+        <input type="radio" id="start" name="justify-content">
+        <label class="mb-0 mr-3" for="start">Start</label>
+        <input type="radio" id="end" name="justify-content">
+        <label class="mb-0 mr-3" for="end">End</label>
+        <input type="radio" id="center" name="justify-content">
+        <label class="mb-0 mr-3" for="center">Center</label>
+        <input type="radio" id="between" name="justify-content">
+        <label class="mb-0 mr-3" for="between">Between</label>
+        <input type="radio" id="around" name="justify-content">
+        <label class="mb-0 mr-3" for="around">Around</label>
+    </div>
+
+    <button id="display-btn" type="button" class="btn btn-secondary ml-3 px-3">Go Flex!</button>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
